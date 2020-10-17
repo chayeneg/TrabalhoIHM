@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Tapa Na Peruca</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--===============================================================================================-->
+  <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" type="text/css" href="css/util.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!--===============================================================================================-->
+</head>
+
+<body>
+
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
+        <span class="login100-form-title p-b-55">
+          Horários agendados
+        </span>
+        <form class="login100-form validate-form">
+          <div class="wrap-input100 validate-input m-b-16">
+            <button class="login100-form-btn" id="button" data-date-format="yyyy-mm-dd" data-date="2012-02-20">Your Date Picker</button>
+          </div>
+        </form>
+        
+        <form id='form-id'>
+          <label><input id='form1' value="A" name="opcao" type="radio">  Sou cliente</input></label>
+          <label><input id='form2' value="B" name="opcao" type="radio">  Sou Dono do Salão</input></label>
+        </form>
+
+        <form id="A" style="display:none;">
+          <div class="container-login100-form-btn p-t-25 ">
+            <a href="cadastro-ok.html" class="btn login100-form-btn">Finalizar Cadastro!</a>
+          </div>
+        </form>
+
+        <form id="B" style="display:none;">
+        
+        <input type="text" id="cnpj" class="input1001 m-b-16" placeholder="CNPJ" onkeyup="(this,event);" MaxLength="18">
+
+        <input type="text" class="input1001 m-b-16" placeholder="Nome do Salão">
+
+        <input type="text" class="input1001 m-b-16" placeholder="Cidade">
+
+        <select class="input1001 m-b-16" name="estado">
+          <option value="audi" selected>Estado</option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+
+        <input type="text" class="input1001 m-b-16" placeholder="Endereço">
+
+        <input type="text" class="input1001 m-b-16" placeholder="Bairro">
+
+        <div class="container-login100-form-btn p-t-25 ">
+          <a href="cadastro-ok.html" class="btn login100-form-btn">Finalizar Cadastro!</a>
+        </div>
+
+        </form>
+
+        <div class="container-login100-form-btn p-t-25 ">
+          <a href="index.html" class="btn login100-form-btn">Voltar</a>
+        </div>
+      
+    </div>
+  </div>
+</div>
+
+        <!-- <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Horário</th>
+              <th scope="col">Cliente</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">08:00 - 08:30</th>
+              <td>José Silva</td>
+
+            </tr>
+            <tr>
+              <th scope="row">08:30 - 09:00</th>
+              <td>Gabriel Reis</td>
+
+            </tr>
+            <tr>
+              <th scope="row">09:00 - 09:30</th>
+              <td>Gabriel Reis</td>
+
+            </tr>
+          </tbody>
+        </table> -->
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!--===============================================================================================-->
+  <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/bootstrap/js/popper.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="vendor/select2/select2.min.js"></script>
+  <!--===============================================================================================-->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
