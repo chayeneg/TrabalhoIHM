@@ -31,45 +31,30 @@
     <div class="container-login100">
       <div class="wrap-login100 p-l-50 p-r-50 p-t-77 p-b-30">
         <span class="login100-form-title p-b-55">
-          Horários agendados
+          Agendamento
         </span>
-        <form class="login100-form validate-form">
-          <div class="wrap-input100 validate-input m-b-16">
 
-            <input type="date" class="input1001 m-b-16" >
+        <span> Selecione abaixo o tipo de serviço, data e horário: </span>
+        <br><br>
+        
+            <select class="input1001 m-b-16" name="servico">
+              <option value="audi" selected>Escolha um serviço</option>
+              <option value="AC">Corte+Barba - R$ 35,00</option>
+              <option value="AL">Corte - R$ 20,00</option>
+              <option value="AP">Barba - R$ 15,00</option>
+            </select>
 
-            </form>
-
-            <br><br>
-       <table class="table m-b-16">
-          <thead>
-            <tr>
-              <th scope="col">Dia</th>
-              <th scope="col">Hora</th>
-              <th scope="col">Cliente</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">18/10/20</th>
-              <th scope="row">8:00 - 8:30</th>
-              <td>José Silva</td>
-
-            </tr>
-            <tr>
-              <th scope="row">18/10/20</th>
-              <th scope="row">9:30 - 10:30</th>
-              <td>Lucas Inutil</td>
-
-            </tr>
-            <tr>
-              <th scope="row">18/10/20</th>
-              <th scope="row">11:00 - 11:30</th>
-              <td>Jaccquin Neves</td>
-
-            </tr>
-          </tbody>
-        </table>
+            <select class="input1001 m-b-16" name="diaHora">
+              <option value="audi" selected>Escolha a data e hora</option>
+              <option value="AC">18/10/20 - 9:00 - 9:30</option>
+              <option value="AL">18/10/20 - 10:30 - 11:00</option>
+              <option value="AP">18/10/20 - 13:00 - 13:30</option>
+            </select>
+            
+        <div class="container-login100-form-btn p-t-25">
+          <a href="confirma-agendamento.html" class="btn login100-form-btn-index mr-2"> Confirmar</a>
+          <a href="index.html" class="btn login100-form-btn-index">Cancelar</a>
+        </div>
 
         <div class="container-login100-form-btn p-t-25 ">
           <a href="principal.html" class="btn login100-form-btn">Voltar</a>
