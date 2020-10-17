@@ -39,21 +39,82 @@
 
 					<input type="email" class="input1001 m-b-16" placeholder="E-mail">
 
+					<input type="text" class="input1001 m-b-16" placeholder="Telefone">
+
 					<input type="password" class="input1001 m-b-16" placeholder="Senha">
 
 					<input type="password" class="input1001 m-b-16" placeholder="Confirme a Senha">
 
+				</form>
+
+					<span>
+						Selecione uma opção:
+					</span>
+					
+					<form id='form-id'>
+						<label><input id='form1' value="A" name="opcao" type="radio">  Sou cliente</input></label>
+						<label><input id='form2' value="B" name="opcao" type="radio">  Sou Dono do Salão</input></label>
+					</form>
+
+					<form id="A" style="display:none;">
+						<div class="container-login100-form-btn p-t-25 ">
+							<a href="cadastro-ok.html" class="btn login100-form-btn">Finalizar Cadastro!</a>
+						</div>
+					</form>
+
+					<form id="B" style="display:none;">
+					
+					<input type="text" id="cnpj" class="input1001 m-b-16" placeholder="CNPJ" onkeyup="(this,event);" MaxLength="18">
+
+					<input type="text" class="input1001 m-b-16" placeholder="Nome do Salão">
+
+					<input type="text" class="input1001 m-b-16" placeholder="Cidade">
+
+					<select class="input1001 m-b-16" name="estado">
+						<option value="audi" selected>Estado</option>
+						<option value="AC">Acre</option>
+						<option value="AL">Alagoas</option>
+						<option value="AP">Amapá</option>
+						<option value="AM">Amazonas</option>
+						<option value="BA">Bahia</option>
+						<option value="CE">Ceará</option>
+						<option value="DF">Distrito Federal</option>
+						<option value="ES">Espírito Santo</option>
+						<option value="GO">Goiás</option>
+						<option value="MA">Maranhão</option>
+						<option value="MT">Mato Grosso</option>
+						<option value="MS">Mato Grosso do Sul</option>
+						<option value="MG">Minas Gerais</option>
+						<option value="PA">Pará</option>
+						<option value="PB">Paraíba</option>
+						<option value="PR">Paraná</option>
+						<option value="PE">Pernambuco</option>
+						<option value="PI">Piauí</option>
+						<option value="RJ">Rio de Janeiro</option>
+						<option value="RN">Rio Grande do Norte</option>
+						<option value="RS">Rio Grande do Sul</option>
+						<option value="RO">Rondônia</option>
+						<option value="RR">Roraima</option>
+						<option value="SC">Santa Catarina</option>
+						<option value="SP">São Paulo</option>
+						<option value="SE">Sergipe</option>
+						<option value="TO">Tocantins</option>
+					</select>
+
+					<input type="text" class="input1001 m-b-16" placeholder="Endereço">
+
+					<input type="text" class="input1001 m-b-16" placeholder="Bairro">
+
+					<div class="container-login100-form-btn p-t-25 ">
+						<a href="cadastro-ok.html" class="btn login100-form-btn">Finalizar Cadastro!</a>
+					</div>
+
+					</form>
 
 					<div class="container-login100-form-btn p-t-25 ">
 						<a href="index.html" class="btn login100-form-btn">Voltar</a>
 					</div>
-					<div class="container-login100-form-btn p-t-25 ">
-						<a href="cadastro-ok.html" class="btn login100-form-btn">Cadastrar como Cliente</a>
-					</div>
-					<div class="container-login100-form-btn p-t-25 ">
-						<a href="cadastro-dono.html" class="btn login100-form-btn">Cadastrar como Dono do Salão</a>
-					</div>
-				</form>
+				
 			</div>
 		</div>
 	</div>
