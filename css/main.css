@@ -439,6 +439,35 @@ iframe {
   background: #333333;
 }
 
+.login100-form-btn-index {
+  font-family: Raleway-Bold;
+  font-size: 14px;
+  background: #d33f8d;
+  color: #fff;
+  line-height: 1.5;
+  text-transform: uppercase;
+
+  justify-content: center;
+  align-items: center;
+  padding: 0 35px;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+  
+  display:inline-block;
+  text-decoration:none;
+  border:1px solid #ccc;
+
+
+}
+
 /*------------------------------------------------------------------
 [ Button sign in with ]*/
 .btn-face,
